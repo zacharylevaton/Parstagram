@@ -21,7 +21,7 @@ The following **bonus** features are implemented:
 
 ## Video Walkthrough
 
-Here's a walkthrough of implemented user stories:
+Here's a walkthrough of implemented user stories:\
 ![](Assignment5(1).gif)
 ![](Assignment5(2).gif)
 ![](Assignment5(3).gif)
