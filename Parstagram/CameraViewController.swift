@@ -58,7 +58,7 @@ class CameraViewController: UIViewController, UINavigationControllerDelegate, UI
         let image = info[.editedImage] as! UIImage
         
         let size = CGSize(width: 300, height: 300)
-        let scaledImage = image.af_imageScaled(to: size)
+        let scaledImage = image.af.imageAspectScaled(toFill: size)
         
         imageView.image = scaledImage
         
