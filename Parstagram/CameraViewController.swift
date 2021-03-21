@@ -65,6 +65,10 @@ class CameraViewController: UIViewController, UINavigationControllerDelegate, UI
         dismiss(animated: true, completion: nil)
     }
     
+    @IBAction func onCancel(_ sender: Any) {
+        self.dismiss(animated: true, completion: nil)
+    }
+    
     /*
     // MARK: - Navigation
 
